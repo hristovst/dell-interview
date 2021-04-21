@@ -8,8 +8,8 @@ public class App {
     }
 
     private static int countOccurences(String A, String B) {
-        // Validate input and check if A contains B at least once.
-        if (A.isBlank() || B.isBlank() || !A.contains(B)) {
+        // Validate input.
+        if (A.isBlank() || B.isBlank()) {
             return 0;
         }
 
